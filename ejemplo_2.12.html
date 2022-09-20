@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Fig. 2.12: tabla1.html-->
+    <!--Creacion de talbla basica-->
+    <meta charset="UTF-8">
+    <title>Una tabla de HTML5 simple</title>
+</head>
+<body>
+    <a href="index.html">Volver al Menu</a>
+    <br>
+    <!--La etiqueta <table> abre una tabla-->
+    <table border = "l">
+        <!--La etiqueta <caption> sintentiza el contenido de-->
+        <!--la tabla (esto ayuda a las personas con discapacidad visual)-->
+
+        <caption><strong>Tabla de frutas (1er columna)
+            y sus precios (2da columna)
+        </strong></caption>
+        
+        <!--la seccion <thead> aparece primero en la tabla 
+            da formato al area del encabezado de la tabla -->
+        <thead>
+            <tr><!--<tr> iserta una fila en la tabla-->
+                <th>Fruta</th><!--inserta una celda de encabezado-->
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+        <!--La seccion <tfoot> aparece al ultimo en la tabla-->
+        <!--da formato al pue de la tabla-->
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>$3.75</th>
+            </tr>
+        </tfoot>
+
+        <!--todo el contenido de la tabla esta encerrado-->
+        <!--dentro del elemento tbody-->
+        <tbody>
+            <tr>
+                <td>Manzana</td><!--Inserta una celda de datos-->
+                <td>$0.25</td>
+                
+            </tr>
+            <tr>
+                <td>Naranja</td>
+                <td>$0.50</td>
+            </tr>
+            <tr>
+                <td>Pl&aacute;tano</td>
+                <td>$1.00</td>
+            </tr>
+            <tr>
+                <td>Pi&ntilde;a</td>
+                <td>$2.00</td>
+            </tr>
+        </tbody>
+    </table>        
+
+
+</body>
+</html>
